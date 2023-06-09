@@ -4,12 +4,18 @@
   body{
     font-family: 'IBM Plex Serif', serif;
   }
+  p{
+    font-size: larger;
+  }
   nav{
-    margin: 20px;
+    margin: auto;
+    width: 80%;
     display: flex;
+    padding: 10px;
     justify-content: space-between;
     align-items: center;
-    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
   }
   nav ul{
     display: flex;
@@ -26,7 +32,8 @@
     font-style: normal;
   }
   img{
-    width: 405px;
+    width: 40rem;
+    opacity: 1.0;
   }
   #content{
     
